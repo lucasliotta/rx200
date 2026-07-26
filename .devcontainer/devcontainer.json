@@ -1,5 +1,6 @@
 {
     "name": "ROS 2 Development Container",
+    "initializeCommand": "xhost +local:root",
     "privileged": true,
     "remoteUser": "ros",
     "build": {
